@@ -1,10 +1,32 @@
-.header{
-    height: 20px;
-    width: 100%;
-    position: relative;
+.header {
+    background-color: #c4c4c4;
+    padding-left: 3rem;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 3rem;
+    width: 80%;
     display: flex;
     flex-direction: row;
-    &-logo{
-        background-color: red;
+    align-items: center;
+    margin-left: 6rem;
+    justify-content: space-between;
+    border-radius: 25px;
+    color: #393e46;
+    &-logo {
+      height: 3rem;
+      width: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 3rem;
+      font-family: 'Lobster', cursive;
+      font-size: 2rem;
     }
-}
+    &-routes-container {
+      display: flex;
+      margin-right: 4rem;
+      gap: 4rem;
+      font-size: 1rem;
+    }
+  }
+  

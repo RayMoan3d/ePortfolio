@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.section {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+
+  h1{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+  }
+  
+  button{
+    background-color: red;
+  }
+}
+
+.model-image{
+height: 500px;
+width: 500px; 
+border-radius: 50%;
+}
