@@ -6,9 +6,10 @@ export default function Header(){
                     Raymond
                 </div>
                 <div className="header-routes-container">
-                        <p>About</p>
-                        <p>Projects</p>
-                        <p>Contacts</p>
+                        <a>Home</a>
+                        <a>About</a>
+                        <a>Projects</a>
+                        <a>Contacts</a>
                 </div>
             </div>
 

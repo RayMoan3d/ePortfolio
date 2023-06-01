@@ -1,5 +1,4 @@
 .header {
-    background-color: #c4c4c4;
     padding-left: 3rem;
     position: -webkit-sticky;
     position: sticky;
@@ -11,7 +10,7 @@
     margin-left: 6rem;
     justify-content: space-between;
     border-radius: 25px;
-    color: #393e46;
+    color: #EEEEEE;
     &-logo {
       height: 3rem;
       width: 6rem;
@@ -25,8 +24,13 @@
     &-routes-container {
       display: flex;
       margin-right: 4rem;
-      gap: 4rem;
+      gap: 3rem;
       font-size: 1rem;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    a:hover{
+      color: #00ADB5;
+      cursor: pointer;
     }
   }
   

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.section {
+.home {
   &-container {
     display: flex;
     align-items: center;
@@ -8,18 +8,30 @@
     margin-top: 7rem;
   }
 
-  h1{
-    font-family: 'Lobster', cursive;
-    font-size: 3rem;
+  &-typeanimation{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    color: aqua;
   }
   
   button{
     background-color: red;
+    border-radius: 10px;
+    height: 2rem;
   }
+}
+
+.typeanimation{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
 }
 
 .model-image{
 height: 500px;
-width: 500px; 
+width: 530px; 
 border-radius: 50%;
 }
