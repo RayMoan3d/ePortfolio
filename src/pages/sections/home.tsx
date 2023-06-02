@@ -6,15 +6,15 @@ export const Home = () => {
       <div className="home">
         <div className="home-container">
           <div className="home-intro">
-            <h1>Hi, I am Raymond John</h1>
+            <h1>Hi, I'm Raymond John</h1>
             <p  className="home-typeanimation">
               <TypeAnimation
       sequence={[
-        'I am a Programmer',
+        'Programmer',
         2000,
-        'I am a Gamer',
+        'Gamer',
         2000,
-        'I am a Prodigy',
+        'Prodigy',
         2000,
         () => {
           console.log('Sequence completed'); // Place optional callbacks anywhere in the array
@@ -26,6 +26,9 @@ export const Home = () => {
       style={{ fontSize: '2em', display: 'inline-block' }}
     />
               </p>
+              <div className="home-introduction">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptatibus laborum maxime, quam optio sapiente dolorem illum placeat illo eius itaque eveniet beatae nihil adipisci sed tempora ipsa ipsam ab?
+              </div>
             <div className="home-btn-box">
               <button className="section-button-resume">RESUME</button>
             </div>
